@@ -40,17 +40,20 @@
   grid-template-columns: 1fr 1fr;
   width: 48%;
   margin: 0 auto;
+  border-radius: 12px;
 }
 
 .image__card {
   background-image: url("./images/image-product-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 20px 0 0 20px;
 }
 
 .info__card {
   background: var(--white);
   padding: 50px;
+  border-radius: 0 12px 12px 0;
 }
 
 .perfume__info {
